@@ -1,0 +1,45 @@
+#root{
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+label{
+  font-weight: bold;
+  display: flex;
+  margin-bottom: 5px;
+}
+
+input[type="email"], input[type="number"], input[type="text"], input[type="data"]{
+  display: block;
+  width: 400px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #0a0101a2;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: rgba(224, 237, 239, 0.5);
+  
+}
+
+.youtube-form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* height: 900px; */
+  /* margin-top: 250px; */
+  align-items: center;
+}
+
+.form-control{
+  margin-bottom: 20px;
+}
+
+.error{
+  color: red;
+  font-size: 12px;
+  text-align: left;
+}
